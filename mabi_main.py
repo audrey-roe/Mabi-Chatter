@@ -25,6 +25,11 @@ model.eval()    # set to evaluation mode
 
 bot_name = "Mabi"
 print("Let's Chat! type 'quit' to exit")
+
+
+
+
+
 while True:
     sentence = input('You: ')
     if sentence == "quit":
@@ -49,6 +54,9 @@ while True:
         for intent in intents ["intents"]:
          if tag == intent["tag"]:
             print(f"{bot_name}: {random.choice(intent['responses'])}")  # this will print the reponse of the bot
+            def get_response(msg):
+                return random.choice(intent['responses'])
+
     else:       # if the probabilty is not high enough
         print(f"{bot_name}: I do not understand...")
         # print(f"(bot_name): {choice(intent['noanswer']}")
