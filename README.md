@@ -8,6 +8,7 @@ Then download pytorch and nltk using👇
 
 》 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113 
 》 pip install nltk
+》 pip install django
 
 Train the data by running the training_data.py in the terminal. Hopefully it runs without any bugs or errors and output training complete, file saved to😭 
 
