@@ -1,0 +1,64 @@
+{"intents"
+[
+{
+"tag":"greetings",
+"patterns":["hello","hey","hi","goodday","greetings","what'sup?","how is it going"]
+"responses":["hello","hey!","what can i do for you?"]
+"context":[""]
+},
+{
+    "Tag";"goodbye",
+    "patterns"["bye","goodbye","seeyoulater"],
+    "responses":["have a nice time,welcomebackagain","byebye"],
+    "context":[""]
+},
+{
+    "tag":"thanks",
+    "patterns":["Thanks","okay","Thankyou","thankyou"That's helpful","awesome thanks","Thanks forhelping me ", "wow", "great"]
+    "responses"["Happy to help!","Anytime!,"you're welcome","My pleasure"],
+    "context":[""]
+},
+{
+"tag":"name",
+"patterns":[""]
+"responses":["sorry,i didn't understand you","please give me some more info","not sure i understand that"],
+"context":[""]
+},
+{
+"tag":"goodbye",
+"patterns":["cya","seeyoulater"goodbye","have a good day","bye","cao","see ya"],
+"responses":["have a nice day",goodbye"]
+
+"context":[""]
+},
+{
+    "tag":"age",
+    "patterns"["how old","what is your age?","age"],
+    "responses":["i am as old time","hey!","i am as old as this site you have been working on!"]
+    
+    "context" [""]
+},
+{
+"tag" "name",
+"patterns":["what is your name",what should i call you","what's your name?,"who are you?","can you tell me your name"],
+"responses":["you can call me bloom!,"i am bloom!,"i am bloom,your medical assitant"]
+"context".[""]
+},
+{
+"tag":"Autism symptoms",
+"patterns":[How do i know someone that has autism?"," How do i know if someoneis austic?", "what are the symptoms of autism?"],
+"responses":["To get a proper diagnosis,please make sure to use our Diagonistics tool to talk to an expert.HOwever,some examples of symptoms you'll likely find someone with autism exhibiting are:
+hyperactive or high energy,low attentio,low concerntration,lack of concerntration,Not responding to name,Avoid
+
+ eye contact,Non-verbal,Repetitive movements,Does not talk,Restrictive conversations,Delayed language skills,congnitive delay,Tantrums,Meltdowns,spinning,repeating the same phrases,spining objects,Arranging objects in line,obssessive intrests,flappinghands,flicking fingers,Rocking body,Anxiety in public places plats alone, food aversions,sensitive to smell,sensitive to ight,sensitive to sounds,not interacting with other children"]
+
+ "context":[""]
+},
+{
+"tag":"consultation",
+
+"patterns":["can i book an appiontment?,'"is there any specialist avaliable?","can you suggest a specialist for consultation?,can you suggest a doctor for consultation?,"can you setup a meeting with a specialist for me?,is there any specialist for consultation"],
+
+"responses":["let's get you started by screening your child:1.https://www.thebloombuddy.com/ coming soon1.html".]
+}
+}
